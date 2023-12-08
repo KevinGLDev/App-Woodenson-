@@ -1,0 +1,45 @@
+
+
+#contenedor-titulo{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor-informacion{
+    margin: 0% 5%;
+    min-height: 600px;
+    
+    padding: 30px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#contenido-informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#informacion{
+    margin-top: 20px;
+}
+
+#img-contenido{
+    border-radius: 20px;
+}
+#subtitulo{
+    color: red;
+    font-size: 30px;
+}
+
+#informacion p{
+    font-size: 25px;
+}
+
+#titulo{
+    font-size: 45px;
+}

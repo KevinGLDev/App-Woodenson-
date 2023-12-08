@@ -1,0 +1,45 @@
+
+#contenedor-titulo{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor-informacion{
+    margin: 0% 5%;
+    min-height: 600px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.servicio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-servicio{
+    font-size: 25px;
+}
+.informacion-servicio{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#titulo-informacion{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+#img-servicio{
+    margin-top: 20px;
+    width: 550px;
+    height: 320px;
+    border-radius: 30px;
+}

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woodenson</title>
+    <link rel="stylesheet" href="~/css/_Layout.css" asp-append-version="true" />
+    
+</head>
+<header id="header">
+
+
+    <div id="logo">
+        <img id="logo-img" src="~/Content/Woodenson/Media/logo.png" alt="logo-empresa">
+
+    </div>
+    <nav id="nav">
+        <ul id="nav-links">
+            <li><a asp-controller="Woodenson" asp-action="Index" >Home</a></li>
+            <li><a asp-controller="Woodenson" asp-action="Service">Servicio</a></li>
+            <li><a asp-controller="Woodenson" asp-action="Us">Nosotros</a></li>
+            <li><a asp-controller="Woodenson" asp-action="Contact">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+   @RenderBody()
+</body>
+</html>

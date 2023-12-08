@@ -1,0 +1,44 @@
+﻿@model Woodenson.Models.ContactModel
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woodenson</title>
+    <link rel="stylesheet" href="~/css/Contact.css" asp-append-version="true" />
+</head>
+
+<body>
+    
+    <div id="contenido">
+        <div id="contenedor-titulo">
+            <h1 id="titulo">Contactanos</h1>
+        </div>
+        <div id="contenedor-informacion">
+            <div asp-validation-summary="All" class="span-error"></div>
+            <form method="post" action="/Woodenson/Contact" id="formulario-contacto">
+                <div class="campo-formulario">
+                    <label for="">Nombre</label>
+                    <input type="text" asp-for="Nombre">
+                </div>
+                <div class="campo-formulario">
+                    <label for="">Correo</label>
+                    <input type="email" asp-for="Correo">
+                </div>
+                <div class="campo-formulario">
+                    <label for="">Telefono</label>
+                    <input type="tel" asp-for="Telefono">
+                </div>
+                <div class="campo-formulario">
+                    <label for="">Comentario</label>
+                    <input type="text" asp-for="Comentario" >
+                </div>
+                <div class="campo-formulario"><input type="submit" value="Solicitar informacion"></div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

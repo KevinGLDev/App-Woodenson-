@@ -1,0 +1,71 @@
+
+
+#contenedor-titulo{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor-informacion{
+    margin: 0% 5%;
+    min-height: 600px;
+    
+}
+
+#formulario-contacto{
+    display: flex;
+    padding: 20px 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+input{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 250px;
+    height: 25px;
+
+}
+textarea{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+label{
+    font-size: 25px;
+}
+
+input[type="submit"]{
+    font-size: 25px;
+    color: white;
+    background-color: red;
+    width: 300px;
+    height: 35px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.2);
+
+}
+#titulo{
+    font-size: 45px;
+}
+
+.span-error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
